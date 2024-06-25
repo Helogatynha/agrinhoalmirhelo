@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+    <title>Animais</title>
+</head>
+<body>
+   <header class="header">
+        <div class="pagina1">
+    <h1> AGROPECUÁRIA </h1>
+    <h2> Tudo sobre o trigo</h2>
+    <img src =trigo.webp id="trigo">        
+<nav>
+    <ul>
+        <li> <a href="https://grupoalv.com.br/2022/11/10/dia-do-trigo-conheca-5-curiosidades/.html"> Trigo</a></li>
+        <li> <a href="contato.html"> Contatos </a></li>
+        <li> <a href="cadastro.html"> Cadastro</a></li>
+        
+</nav>
+<h3> 5 COISAS QUE VOCÊ NÃO SABIA SOBRE O TRIGO </h3>
+        <p>O trigo para outros usos serve à alimentação animal ou uso industrial</p>
+        <p>O tipo pão atende a panificação, folheados, massas alimentícias e usos domésticos.</p>
+        <p>Mais ao sul do País, no Rio Grande do Sul e Santa Catarina, cultiva-se o “trigo brando”.</p>
+        <p>Na porção norte e oeste do Paraná, em função do clima, se produz trigo de alta força de glúten, chamado de “trigo pão” e de “trigo melhorador”.</p>
+        <p>O trigo é um cereal básico da alimentação humana. A farinha feita a partir dos grãos de trigo é largamente utilizada na confecção de pães, massas e biscoitos.</p>
+    </ul>
+ </div>
+   </header>
+  </div class="pagina2">
+
+</div>
+  
+ <div class="container">
+ <img src="trigoverde.webp" alt=" Agropecuária image 1" class="trigos">
+ <img src="trigoamarelo.webp" alt=" Agropecuária image 2" class="trigos">
+  <img src="familia.jpg" alt=" Agropecuária image 3" class="trigos">
+  </div>
+ 
+
+<!-- Link interativo -->
+<a href="#" class="link-interativo" onclick="exibirMensagem(event)">Clique aqui para ver a mensagem</a>
+
+<!-- Div oculta que contém a mensagem -->
+<div id="mensagem" class="mensagem1">
+<p>Olá! Esta é a mensagem que aparece na mesma página quando você clica no link.</p>
+</div>
+
+<!-- Script JavaScript para exibir a mensagem -->
+<script>
+function exibirMensagem(event) {
+  event.preventDefault(); // Evita o comportamento padrão do link
+  var mensagemDiv = document.getElementById('mensagem1');
+  mensagemDiv.style.display = 'block'; // Exibe a mensagem
+}
+</script>
+
+</body>
+</html>
